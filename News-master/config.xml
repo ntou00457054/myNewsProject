@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "net.i-Favorites.News"
+	version 	= "1.1.0">
+                                        
+	<name>行動新聞王</name>
+
+	<description>
+《行動新聞王》由i-Favorites.net製作，為大家收集了台灣最完整的新聞媒體的RSS摘要，妥善分類。
+配合活頁簿的版面設計，讓使用者更有閱讀的FU！
+
+</description>
+
+	<author href="http://i-favorites.net/"
+		email="myTouchGame@gmail.com">
+		i-Favorites.net
+	</author>
+
+	<icon src="icon512.png" gap:platform="android" gap:role="default" />
+	<gap:splash src="splash.png" />
+  
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	
+	<preference name="orientation" value="auto" />
+	<preference name="android-installLocation" value="auto" />
+	
+
+	<access origin="*" /> 
+
+
+	
+</widget>

@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<!-- Fig. 11.17: FavoriteTwitterSearchs.html 了解如何用 web storage-->     
+<!-- Favorite Twitter Searches web application. -->
+<html>
+<head>
+   <title>Plurk Searches</title>
+   <link rel = "stylesheet" type = "text/css" href = "style.css">	<!--加入內部css 樣式-->
+   <script src = "FavoritePlurkSearches.js"></script> <!--嵌入js檔 樣式-->
+</head>
+<body>
+   <h1>Favorite Plurk Searches</h1>
+   <p id = "welcomeMessage"></p> <!--****-->
+   <form action = "#">
+      <p><input id = "query" type = "text" 
+         placeholder = "Enter Plurk search query">
+      <p><input id = "tag" type = "text" placeholder = "Tag your query"></p>
+      <p><input type = "button" value = "Save" 
+            id = "saveButton">
+         <input type = "button" value = "Clear All Saved Searches"
+            id = "clearButton"></p>
+   </form>
+   <h1>Previously Tagged Searches</h1>
+   <div id = "searches"></div>
+</body>
+</html>
+
+<!--
+**************************************************************************
+* (C) Copyright 1992-2012 by Deitel & Associates, Inc. and               *
+* Pearson Education, Inc. All Rights Reserved.                           *
+*                                                                        *
+* DISCLAIMER: The authors and publisher of this book have used their     *
+* best efforts in preparing the book. These efforts include the          *
+* development, research, and testing of the theories and programs        *
+* to determine their effectiveness. The authors and publisher make       *
+* no warranty of any kind, expressed or implied, with regard to these    *
+* programs or to the documentation contained in these books. The authors *
+* and publisher shall not be liable in any event for incidental or       *
+* consequential damages in connection with, or arising out of, the       *
+* furnishing, performance, or use of these programs.                     *
+**************************************************************************
+-->
