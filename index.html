@@ -8,11 +8,12 @@
     <!-- Bootstrap CSS -->
     <!-- Bootstrap CSS -->
 	<style type="text/css">
+	span.myMouse	{cursor :crosshair;}
 	div.menu	{
-		width : 100px;
-		height : 50px;
+		width : 100%;
+		height : 100px;
 		background-color: pink;
-		font-size:150%;
+		font-size:20em;
 		text-color : black;
 	}
 	.kir {
@@ -61,6 +62,9 @@
 		position:relative;
 		top:1px;
 	}
+	
+
+
 
 	</style>
 	
@@ -90,20 +94,31 @@
 	<!--the menu-->
 	<div id="menu" class="menu">
 	  <ul>
-		<li> <a href="#">search</a>
-		  <ul>
-			<li><a href="FavoriteTwitterSearches.html" target="blank" >Twitter</a></li>
-			<li><a href="FavoriteYoutubeSearch.html" target="blank">Youtube</a></li>
-			<li><a href="#">FB 粉專</a></li>
-			<li><a href="FavoritePlurkSearches.html" target="blank">Plurk</a></li>
-		  </ul>
-		</li>
-		<li> <a href="#">the news link</a>
-		  <ul>
-			<li><a href="News-master/index.html" target="blank" >即時新聞</a></li>
-		  </ul>
-		</li>
-		<li><a href="index_weather.html">the weather</a>
+			<li> <a href="#">search</a>
+			  <ul>
+				<li><a href="FavoriteTwitterSearches.html" target="blank" >Twitter</a></li>
+				<li><a href="FavoriteYoutubeSearch.html" target="blank">Youtube</a></li>
+				<li><a href="#">FB 粉專</a></li>
+				<li><a href="FavoritePlurkSearches.html" target="blank">Plurk</a></li>
+			  </ul>
+			</li>
+		
+			<li> <a href="#">the news link</a>
+			  <ul>
+				<li><a href="News-master/index.html" target="blank" >即時新聞</a></li>
+			  </ul>
+			</li>
+		
+			<li><a href="#">the weather</a>
+				<ul>
+					<li><a href="index_weather.html">北中南東天氣預報</a></li>
+				</ul>
+			</li>
+			
+		<li><a href="#">說明文件</a>
+			<ul>
+				<li><a href="00457054-my news 期末.pptx">ppt</a></li>
+			</ul>
 		</li>
 	  </ul>
 	</div><br>
@@ -111,7 +126,7 @@
 	
 	<div id="theWebSearch">
 		<!--設url 跟名字以加入-->
-		<h1>Favorite news link</h1>
+		<span class="myMouse"><h1>Favorite news link</h1></span>
 	   <p id = "welcomeMessage"></p>
 	   <form action = "#">
 		  <p><input id = "query" type = "text" 
@@ -129,13 +144,28 @@
 		<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
 		<br>
 	   <!--加入search filter-->
-		<h1>Previously Tagged Searches</h1>
+		<span class="myMouse"><h1>Previously Tagged Searches</h1></span>
 		<div id = "searches"></div>
 	</div>
 	<!--用id delete-->
 	<div>
 		
 	</div><hr>
+	<div>
+		<h1>參考網站<h1><br>
+			<a href="https://edition.cnn.com/" target="blank"><img src="CNN.jpg" alt="ppt picture" height="100" width="100"></a>
+		<hr>
+	</div><hr>
+	
+	<div>
+		<h1>background misic<h1><br>
+			<audio controls loop>
+			  <source src="起來  現在也才3點.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+			</audio>
+		<hr>
+	</div><hr>
+	
 
   </body>
 </html>
